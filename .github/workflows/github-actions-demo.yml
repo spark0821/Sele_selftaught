@@ -14,5 +14,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "test/a.txt,test/b.txt"
+        source: "test/action.txt"
         target: /test_actions
